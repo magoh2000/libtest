@@ -1,4 +1,3 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
+RUN apt-get update && apt-get install linux-libc-dev=5.4.0-26.30
 
-RUN apt-get update && apt-get install linux-libc-dev
-#test
